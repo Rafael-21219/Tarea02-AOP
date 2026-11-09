@@ -15,7 +15,7 @@ public class WebStore {
     //Simulación de una webstore
     System.out.println("-----SIMULACION DE UNA WEBSTORE(ADAPTER)-----");
     CryptoAPI api =new CryptoAPI();
-    CreditCardProcessor procesador = new CryptoAdapter(api, "OpOL2l20opPp1oI"); 
+    PaymentProcessor procesador = new CryptoAdapter(api, "OpOL2l20opPp1oI"); 
     System.out.println("Cliente realizando compra de $15,000 USD"); 
     procesador.pay(15000.0); 
     }

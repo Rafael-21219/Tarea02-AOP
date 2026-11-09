@@ -8,7 +8,7 @@ package com.implementaciona.main;
  *
  * @author rafae
  */
-public interface CreditCardProcessor {
+public interface PaymentProcessor {
     void pay(double amountUSD);
     
 }
