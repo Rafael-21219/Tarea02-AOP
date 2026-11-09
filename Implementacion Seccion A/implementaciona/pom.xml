@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>22</maven.compiler.release>
-        <exec.mainClass>com.implementaciona.mavenproject1.Main</exec.mainClass>
+        <exec.mainClass>com.implementaciona.main.Main</exec.mainClass>
     </properties>
     <name>implementaciona</name>
 </project>
