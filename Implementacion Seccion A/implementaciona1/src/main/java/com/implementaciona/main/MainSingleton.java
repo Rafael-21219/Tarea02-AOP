@@ -8,7 +8,7 @@ package com.implementaciona.main;
  *
  * @author rafae
  */
-public class Main {
+public class MainSingleton{
 
     public static void main(String[] args) {
     //prueba de Singleton (usando SingleOption)
@@ -25,12 +25,6 @@ public class Main {
     SO2.connect();
     System.out.println("");
     System.out.println("");
-    //prueba de Adapter
-    //Simulación de una webstore
-    System.out.println("-----SIMULACION DE UNA WEBSTORE(ADAPTER)-----");
-    CryptoAPI api =new CryptoAPI();
-    CreditCardProcessor procesador = new CryptoAdapter(api, "OpOL2l20opPp1oI"); 
-    System.out.println("Cliente realizando compra de $15,000 USD"); 
-    procesador.pay(15000.0); 
+    
     }
 }
