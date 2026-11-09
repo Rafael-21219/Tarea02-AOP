@@ -8,7 +8,7 @@ package com.implementaciona.main;
  *
  * @author rafae
  */
-public class CryptoAdapter implements CreditCardProcessor{
+public class CryptoAdapter implements PaymentProcessor{
     private CryptoAPI cryptoApi;
     private String storeWallet;
     public CryptoAdapter(CryptoAPI api, String wallet){
